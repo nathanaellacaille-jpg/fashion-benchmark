@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python score_p4.py)",
+      "Bash(pip install:*)",
+      "Bash(python scoring.py)",
+      "Bash(python -c \"import supabase; import dotenv; print\\(''supabase'', supabase.__version__\\); print\\(''dotenv ok''\\)\")",
+      "Bash(python -c \"import supabase; import dotenv; print\\(''supabase'', supabase.__version__\\)\")",
+      "Bash(python -c \"import supabase; print\\(''''supabase'''', supabase.__version__\\)\")",
+      "Bash(python -c \"import supabase; print\\(''''ok'''', supabase.__version__\\)\")",
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(\"F:/fashion-benchmark/frontend/.gitignore\")",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}
